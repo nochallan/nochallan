@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f8faff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    padding: 40px 20px;
+}
+
+.logo {
+    width: 120px;
+}
+
+.cta {
+    background: white;
+    padding: 40px 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+}
+
+button {
+    padding: 12px 25px;
+    background: #007bff;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
