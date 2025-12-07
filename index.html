@@ -1,29 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NoChallan - Easy Fine Resolution</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Challan Solutions</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      font-size: 16px;
+      color: #323130;
+      margin: 0;
+      background-color: #F3F2F1;
+    }
+    header {
+      background-color: #0067B8;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+    nav {
+      background-color: #004578;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      margin-top: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      color: #0067B8;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+    form input, form textarea {
+      margin: 10px 0;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    form button {
+      background-color: #0067B8;
+      color: white;
+      padding: 12px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    form button:hover {
+      background-color: #004578;
+    }
+    article h3 {
+      color: #0067B8;
+    }
+    .whatsapp-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      text-align: center;
+      font-size: 30px;
+      line-height: 60px;
+      text-decoration: none;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+      z-index: 1000;
+    }
+    .whatsapp-btn:hover {
+      background-color: #128C7E;
+    }
+  </style>
 </head>
 <body>
-    <header>
-    <img src="assets/images/logo.png" alt="NoChallan Logo" class="logo">
-    <h1>NoChallan</h1>
-    <p>Your simple way to resolve fines & compliance issues.</p>
-</header>
+  <header>
+    <h1>Challan Solutions</h1>
+    <p>We clear your challans, you save time & money</p>
+  </header>
 
+  <nav>
+    <a href="#about">About Us</a>
+    <a href="#solutions">Solutions</a>
+    <a href="#login">Login</a>
+    <a href="#survey">Survey Form</a>
+  </nav>
 
-    <section class="cta">
-        <h2>Resolve Your Traffic Fines Easily</h2>
-        <p>Upload challan details and we help you reduce, settle or resolve them quickly.</p>
-        <button>Start Now</button>
-    </section>
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      In India, millions of rupees worth of challans remain pending because the fines are too hefty and the process too complicated. At <strong>Challan Solutions</strong>, we believe no one should be burdened with endless paperwork or legal hurdles. Our mission is to simplify the process of clearing challans, offering a stress-free way to resolve your dues.
+    </p>
+    <p>
+      We handle everything—from challan verification to representing you in Lok Adalat. You just provide us with your challan details and we take care of the rest. Our vision is to empower citizens with a transparent, affordable, and efficient system to clear pending challans without fear of mounting penalties.
+    </p>
+  </section>
 
-    <footer>
-        <p>© 2025 NoChallan. All rights reserved.</p>
-    </footer>
+  <section id="solutions">
+    <h2>Our Solutions</h2>
+    <ul>
+      <li><strong>Challan Verification:</strong> We check the authenticity and status of your challans.</li>
+      <li><strong>Fine Negotiation:</strong> We work to reduce hefty fines through legal channels.</li>
+      <li><strong>Lok Adalat Representation:</strong> Our team represents you in Lok Adalat to settle disputes.</li>
+      <li><strong>End-to-End Management:</strong> From paperwork to closure, we handle the entire process.</li>
+      <li><strong>Early Bird Discount:</strong> Sign up now and get exclusive discounts when we go live.</li>
+    </ul>
+  </section>
 
-    <script src="assets/js/script.js"></script>
+  <section id="login">
+    <h2>Login</h2>
+    <form>
+      <input type="text" placeholder="Username" required>
+      <input type="password" placeholder="Password" required>
+      <button type="submit">Login</button>
+    </form>
+  </section>
+
+  <section id="survey">
+    <h2>Survey Form</h2>
+    <p>If you are interested, please fill out this form. Once we are live, we will connect with you and offer an early bird discount.</p>
+    <form>
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <input type="text" placeholder="Phone Number" required>
+      <textarea placeholder="Challan Details (Number, Date, etc.)" rows="5" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <section id="blog">
+    <h2>Blog</h2>
+    <article>
+      <h3>Lok Adalat Rescheduled to January 2026</h3>
+      <p>Delhi's next National Lok Adalat (settlement session) for traffic fines has been moved to January 10, 2026. Originally planned for December 13, 2025, the session was postponed after the Delhi High Court declared that date a working Saturday. The Delhi State Legal Services Authority (DSLSA) announced the new date, giving motorists and litigants extra time to prepare their cases.</p>
+      <p>The city-wide Lok Adalat will run simultaneously across all district court complexes and tribunals in Delhi, with the goal of resolving a large backlog of pending traffic challans. It specifically helps settle only compoundable traffic offenses, such as signal jumping, minor overspeeding, illegal parking, expired pollution certificates, and helmet/seatbelt violations. More serious charges like drunk driving or fatal accidents will continue in the regular courts.</p>
+      <p>To participate, vehicle owners are advised to check their pending challans online (via the Parivahan e-Challan portal) and carry relevant documents (challan copy, vehicle registration, license, ID) to the Lok Adalat. Those with existing court cases must apply to have them listed for the January session, while others can submit cases through the DSLSA. Some courts may also offer online token booking, so drivers should verify details on official channels.</p>
+    </article>
+    <article>
+      <h3>One-Time Challan Amnesty Deferred</h3>
+      <p>A proposed one-time waiver scheme for pending traffic fines in Delhi was stalled in early December 2025. The Delhi Cabinet deferred approval after officials noted that multiple unpaid-fine cases were already in court, making a blanket waiver legally complicated. In other words, concerns about ongoing legal cases over unpaid challans forced a rethink of the amnesty plan.</p>
+      <p>The scale of the issue is huge: officials point out that more than 22 lakh traffic challans were issued between January and July 2025 in Delhi, but only about 2% (55,000) have been paid. The draft scheme had envisioned roughly 50–70% reductions on outstanding fines for personal vehicles (two-, three-, and four-wheelers) to clear this massive backlog. The intent was to ease pressure on overburdened courts while helping drivers settle old dues.</p>
+      <p>Authorities warned that motorists should take any such opportunity seriously, noting that this was a one-time relaxation. After the amnesty window, tougher measures will be considered for habitual defaulters. Possible enforcement steps include blocking certain online services on the vehicle portal or even canceling registration of vehicles whose owners repeatedly ignore fines.</p>
+    </article>
+    <article>
+      <h3>Traffic Violations Surge in Delhi</h3>
+      <p>Delhi has seen an unprecedented rise in traffic violations in 2025. New data from the Delhi traffic police (comparing Jan–Nov 2025 to the same period in 2024) shows steep increases across the board. Improper parking cases alone jumped about 147%, from roughly 472,000 in 2024 to over 1.16 million in 2025.</p>
+      <p>Other offences also climbed significantly. Riding without a helmet nearly doubled, and driving without a licence went up 73%. Triple-riding cases jumped 63%. Even serious offences like drunk-driving and dangerous driving recorded moderate increases (around 9–17% higher than last year). Offences such as driving without insurance (up 74%) and unauthorized road use (up 45%) also saw major increases in citations.</p>
+      <p>Officials attribute much of the rise to new enforcement technology and targeted drives. Automated cameras (including AI-powered systems and license-plate recognition) and focused patrols have caught many offences that previously went undetected. The traffic police say these measures, along with public awareness campaigns, have resulted in the higher recorded violation counts.</p>
+    </article>
+  </section>
+
+  <section id="news">
+    <h2>News & Media</h2>
+    <ul>
+      <li><strong>Times of India</strong> (Dec 05, 2025): “<a href="https://timesofindia.indiatimes.com/city/delhi/traffic-violations-hit-roof-improper-parking-tops-list/articleshow/125771568.cms" target="_blank">Traffic Violations Hit Roof, Improper Parking Tops List</a>” — New data shows a massive rise in Delhi traffic violations this year. Improper parking fines jumped 147%, and many other offences (like helmetless riding and unlicensed driving) rose sharply.</li>
+      <li><strong>Times of India</strong> (Dec 04, 2025): “<a href="https://timesofindia.indiatimes.com/auto/news/delhi-traffic-challans-lok-adalat-session-gets-new-date-how-to-settle-cases/articleshow/125760563.cms" target="_blank">Delhi traffic challans: Lok adalat session gets new date, how to settle cases</a>” — The Delhi government postponed the December 13 Lok Adalat to January 10, 2026. This city-wide session will allow motorists to settle many pending traffic fines for minor offences with reduced hassle.</li>
+      <li><strong>NDTV</strong> (Dec 03, 2025): “<a href="https://www.ndtv.com/delhi-news/delhis-one-time-traffic-challan-waiver-plan-hits-legal-roadblock-official-9740046" target="_blank">Delhi's One-Time Traffic Challan Waiver Plan Hits Legal Roadblock: Official</a>” — A proposed one-time amnesty on old traffic fines was delayed by the Delhi Cabinet due to legal concerns. Officials cited ongoing court cases as a hurdle, even though the scheme would have offered 50–70% waivers on unpaid fines.</li>
+      <li><strong>Economic Times</strong> (Dec 04, 2025): “<a href="https://economictimes.indiatimes.com/news/india/lesser-known-traffic-violations-that-are-getting-delhi-drivers-in-trouble/articleshow/125763024.cms?from=mdr" target="_blank">Lesser-known traffic violations that are getting Delhi drivers into trouble</a>” — Highlights a spike in tickets for minor offences. For example, Delhi issued 28,495 fines in 2025 for unauthorized vehicle advertisements (up from 5,698 last year). Fines for other minor violations (like smoking in cars or loud music) have also increased.</li>
+    </ul>
+  </section>
+
+  <a href="#" class="whatsapp-btn" title="Chat with us on WhatsApp">W</a>
 </body>
 </html>
